@@ -1,6 +1,5 @@
 package ds;
 
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -11,7 +10,6 @@ public class UseQueue {
         queue.add("Shama");
         queue.add("Pranti");
         queue.add("Priyana");
-
         /*System.out.println(queue.poll());
         System.out.println(queue.poll());
         System.out.println(queue.poll());
@@ -26,11 +24,11 @@ public class UseQueue {
 //using for each traverse through the LinkedList
         /*for (String st: queue){
             System.out.println(st);  // this is another way to call by for loop or while loop
-        }*
+        }*/
 
         //using while as long as LinkedList is not isEmpty()
-         while (!queue.isEmpty()){
-             System.out.println(queue.poll());
-         }
+        while (!queue.isEmpty()) {
+            System.out.println(queue.poll());
+        }
     }
 }

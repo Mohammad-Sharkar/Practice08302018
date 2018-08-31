@@ -1,6 +1,5 @@
 package ds;
 
-import java.util.List;
 import java.util.Stack;
 public class UseStack {
     public static void main(String[] args) {

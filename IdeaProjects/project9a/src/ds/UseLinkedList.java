@@ -1,9 +1,7 @@
 package ds;
 
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.ListIterator;
 
 public class UseLinkedList {
     public static void main(String[] args) {
